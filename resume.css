@@ -5,11 +5,37 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    text-align: left;
 }
-
+body {
+    overflow-wrap: break-word;
+}
 a {
     color: mediumaquamarine;   
 }
 #resume {
     width: 800px;
 }
+
+.date {
+    float:right;
+}
+
+.sep-xl {
+    border-color:white; 
+    border-width:5px;
+}
+
+.sep {
+    border-color:white; 
+    border-width:2px;
+}
+
+@media only screen and (max-width: 800px) {
+    #resume {
+        width: 90%;
+    }
+    .date {
+        float:none;
+    }
+  }
